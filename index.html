@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prada Autoelevadores</title>
+  <link rel="shortcut icon" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="logo">
+      <img src="logo.png" alt="Prada Autoelevadores" class="logo-img">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="productos.html">Catálogo</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <a href="https://wa.me/5491125133329" class="header-cta" target="_blank">
+      <i class="fab fa-whatsapp"></i> Consultar ahora
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav" id="mobileNav">
+    <ul>
+      <li><a href="#inicio" class="mnav-link">Inicio</a></li>
+      <li><a href="#productos" class="mnav-link">Productos</a></li>
+      <li><a href="#servicios" class="mnav-link">Servicios</a></li>
+      <li><a href="productos.html" class="mnav-link">Catálogo</a></li>
+      <li><a href="#contacto" class="mnav-link">Contacto</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-glow"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Disponible para toda la Argentina
+      </div>
+      <h1 class="hero-title">
+        <span class="title-line">PRADA</span>
+        <span class="title-line accent">AUTOELEVADORES</span>
+      </h1>
+      <p class="hero-sub">
+        Venta, alquiler y mantenimiento profesional de equipos industriales. Más de años de experiencia respaldan cada solución.
+      </p>
+      <div class="hero-actions">
+        <a href="productos.html" class="btn btn-primary">Ver Catálogo <i class="fas fa-arrow-right"></i></a>
+        <a href="https://wa.me/5491125133329" class="btn btn-ghost" target="_blank">
+          <i class="fab fa-whatsapp"></i> Cotizar
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>500+</strong><span>Equipos vendidos</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>24hs</strong><span>Servicio técnico</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>100%</strong><span>Garantía</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="visual-ring ring-1"></div>
+      <div class="visual-ring ring-2"></div>
+      <img src="imgelevador.jpg" alt="Autoelevador" class="hero-machine">
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- BANDA DE CONFIANZA -->
+  <div class="trust-bar">
+    <div class="trust-track">
+      <span><i class="fas fa-shield-alt"></i> Garantía extendida</span>
+      <span><i class="fas fa-tools"></i> Servicio técnico propio</span>
+      <span><i class="fas fa-truck"></i> Envíos a todo el país</span>
+      <span><i class="fas fa-headset"></i> Asesoramiento personalizado</span>
+      <span><i class="fas fa-medal"></i> Equipos certificados</span>
+      <span><i class="fas fa-clock"></i> Respuesta en 24hs</span>
+      <!-- repeat for infinite scroll -->
+      <span><i class="fas fa-shield-alt"></i> Garantía extendida</span>
+      <span><i class="fas fa-tools"></i> Servicio técnico propio</span>
+      <span><i class="fas fa-truck"></i> Envíos a todo el país</span>
+      <span><i class="fas fa-headset"></i> Asesoramiento personalizado</span>
+      <span><i class="fas fa-medal"></i> Equipos certificados</span>
+      <span><i class="fas fa-clock"></i> Respuesta en 24hs</span>
+    </div>
+  </div>
+
+  <!-- PRODUCTOS DESTACADOS -->
+  <section id="productos" class="section-productos">
+    <div class="section-header">
+      <div class="section-label">Nuestros equipos</div>
+      <h2>Productos <span class="accent">Destacados</span></h2>
+      <p>Equipos de alta performance para operaciones exigentes</p>
+    </div>
+    <div class="cards-grid">
+
+      <div class="card reveal">
+        <div class="card-img-wrap">
+          <img src="autoelevadorelectrico.jpg" alt="Autoelevador Eléctrico">
+          <div class="card-tag">Más vendido</div>
+        </div>
+        <div class="card-body">
+          <h3>Autoelevador Eléctrico</h3>
+          <p>Ideal para depósitos cerrados y logística urbana. Silencioso y de bajo mantenimiento.</p>
+          <div class="card-footer">
+            <span class="card-price">$3.500.000</span>
+            <a href="https://wa.me/5491125133329?text=Consulta%20Autoelevador%20Eléctrico" class="card-btn" target="_blank">Consultar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-img-wrap">
+          <img src="autoelevadordiesel.jpg" alt="Autoelevador Diesel">
+          <div class="card-tag tag-power">Alta potencia</div>
+        </div>
+        <div class="card-body">
+          <h3>Autoelevador Diesel</h3>
+          <p>Gran potencia para trabajo exterior e interior. Perfecto para cargas pesadas y largas jornadas.</p>
+          <div class="card-footer">
+            <span class="card-price">$5.200.000</span>
+            <a href="https://wa.me/5491125133329?text=Consulta%20Autoelevador%20Diesel" class="card-btn" target="_blank">Consultar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-img-wrap">
+          <img src="transpalenta.jpg" alt="Transpaleta">
+        </div>
+        <div class="card-body">
+          <h3>Transpaleta</h3>
+          <p>Movimiento eficiente de cargas en pasillos angostos. Eléctrica y manual disponibles.</p>
+          <div class="card-footer">
+            <span class="card-price">$780.000</span>
+            <a href="https://wa.me/5491125133329?text=Consulta%20Transpaleta" class="card-btn" target="_blank">Consultar</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="section-cta">
+      <a href="productos.html" class="btn btn-primary">Ver catálogo completo <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="section-servicios">
+    <div class="servicios-bg"></div>
+    <div class="section-header">
+      <div class="section-label">Lo que ofrecemos</div>
+      <h2>Nuestros <span class="accent">Servicios</span></h2>
+      <p>Soluciones integrales para mantener tu operación sin parar</p>
+    </div>
+    <div class="servicios-grid">
+
+      <div class="servicio-card reveal">
+        <div class="servicio-icon">
+          <i class="fas fa-tools"></i>
+        </div>
+        <h3>Servicio Técnico</h3>
+        <p>Diagnóstico y reparación por técnicos certificados. Respuesta en menos de 24 horas para minimizar tu tiempo de parada.</p>
+        <div class="servicio-num">01</div>
+      </div>
+
+      <div class="servicio-card reveal">
+        <div class="servicio-icon">
+          <i class="fas fa-calendar-check"></i>
+        </div>
+        <h3>Mantenimiento Preventivo</h3>
+        <p>Planes de mantenimiento periódico que extienden la vida útil de tus equipos y previenen fallas costosas.</p>
+        <div class="servicio-num">02</div>
+      </div>
+
+      <div class="servicio-card reveal">
+        <div class="servicio-icon">
+          <i class="fas fa-truck"></i>
+        </div>
+        <h3>Envíos a Todo el País</h3>
+        <p>Logística especializada para trasladar equipos industriales de forma segura a cualquier punto de Argentina.</p>
+        <div class="servicio-num">03</div>
+      </div>
+
+      <div class="servicio-card reveal">
+        <div class="servicio-icon">
+          <i class="fas fa-hand-holding-usd"></i>
+        </div>
+        <h3>Alquiler de Equipos</h3>
+        <p>Soluciones flexibles de alquiler por días, semanas o meses. Ideal para picos de producción o proyectos eventuales.</p>
+        <div class="servicio-num">04</div>
+      </div>
+
+      <div class="servicio-card reveal">
+        <div class="servicio-icon">
+          <i class="fas fa-headset"></i>
+        </div>
+        <h3>Asesoramiento</h3>
+        <p>Te ayudamos a elegir el equipo ideal para tu operación. Evaluamos capacidad, espacio y necesidades productivas.</p>
+        <div class="servicio-num">05</div>
+      </div>
+
+      <div class="servicio-card reveal">
+        <div class="servicio-icon">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <h3>Garantía Extendida</h3>
+        <p>Todos nuestros equipos incluyen garantía. Podés extenderla para mayor tranquilidad y proteger tu inversión.</p>
+        <div class="servicio-num">06</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- POR QUÉ ELEGIRNOS -->
+  <section class="section-porque">
+    <div class="porque-content">
+      <div class="section-label">Por qué Prada</div>
+      <h2>Experiencia que <span class="accent">se nota</span></h2>
+      <p class="porque-sub">No somos un revendedor más. Somos especialistas en equipamiento industrial con trayectoria y equipo técnico propio.</p>
+      <ul class="porque-list">
+        <li><i class="fas fa-check-circle"></i> Equipos revisados y garantizados antes de la entrega</li>
+        <li><i class="fas fa-check-circle"></i> Técnicos propios en campo, no tercerizados</li>
+        <li><i class="fas fa-check-circle"></i> Financiación y planes de pago disponibles</li>
+        <li><i class="fas fa-check-circle"></i> Repuestos originales en stock</li>
+        <li><i class="fas fa-check-circle"></i> Atención personalizada desde el primer contacto</li>
+      </ul>
+      <a href="https://wa.me/5491125133329" class="btn btn-primary" target="_blank">
+        <i class="fab fa-whatsapp"></i> Hablar con un asesor
+      </a>
+    </div>
+    <div class="porque-visual">
+      <div class="kpi-card">
+        <strong>500+</strong>
+        <span>Equipos entregados</span>
+      </div>
+      <div class="kpi-card">
+        <strong>24hs</strong>
+        <span>Respuesta técnica</span>
+      </div>
+      <div class="kpi-card">
+        <strong>100%</strong>
+        <span>Garantía en todos los equipos</span>
+      </div>
+      <div class="kpi-card">
+        <strong>∞</strong>
+        <span>Soporte posventa</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-faq" id="faq">
+    <div class="section-header">
+      <div class="section-label">Dudas frecuentes</div>
+      <h2>Preguntas <span class="accent">Frecuentes</span></h2>
+    </div>
+    <div class="faq-list">
+
+      <div class="faq-item reveal">
+        <button class="faq-btn">
+          ¿Qué servicios ofrecen?
+          <i class="fas fa-plus faq-icon"></i>
+        </button>
+        <div class="faq-content">
+          <p>Ofrecemos venta, alquiler, reparación y mantenimiento preventivo de autoelevadores, transpaletas, apiladores y otros equipos industriales. También brindamos asesoramiento técnico para ayudarte a elegir el equipo más adecuado.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-btn">
+          ¿Tienen servicio técnico propio?
+          <i class="fas fa-plus faq-icon"></i>
+        </button>
+        <div class="faq-content">
+          <p>Sí. Contamos con técnicos especializados propios que brindan servicio en campo. No tercerizamos las reparaciones, lo que garantiza calidad y tiempos de respuesta más rápidos.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-btn">
+          ¿Realizan envíos al interior?
+          <i class="fas fa-plus faq-icon"></i>
+        </button>
+        <div class="faq-content">
+          <p>Sí, enviamos equipos a todo el territorio argentino. Trabajamos con transportistas especializados en maquinaria pesada para garantizar una entrega segura y en tiempo.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-btn">
+          ¿Cuál es el modelo de precios?
+          <i class="fas fa-plus faq-icon"></i>
+        </button>
+        <div class="faq-content">
+          <p>Los precios dependen del equipo, el servicio o el plan de mantenimiento requerido. Contactanos por WhatsApp o email y te enviamos un presupuesto sin compromiso en el día.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-btn">
+          ¿Ofrecen financiación?
+          <i class="fas fa-plus faq-icon"></i>
+        </button>
+        <div class="faq-content">
+          <p>Contamos con opciones de financiación y planes de pago. Consultanos sobre las condiciones disponibles según el equipo y monto de la operación.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section-contacto" id="contacto">
+    <div class="contacto-inner">
+      <div class="section-header" style="text-align:left; margin-bottom:40px;">
+        <div class="section-label">Estamos para ayudarte</div>
+        <h2>Contacto <span class="accent">Directo</span></h2>
+      </div>
+      <div class="contacto-grid">
+        <a href="https://wa.me/5491125133329" class="contacto-card" target="_blank">
+          <div class="contacto-icon" style="background:#25D366;">
+            <i class="fab fa-whatsapp"></i>
+          </div>
+          <div>
+            <strong>WhatsApp</strong>
+            <span>+54 9 11 2513-3329</span>
+          </div>
+          <i class="fas fa-arrow-right contacto-arrow"></i>
+        </a>
+        <a href="https://instagram.com/pradaautoelevadores" class="contacto-card" target="_blank">
+          <div class="contacto-icon" style="background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div>
+            <strong>Instagram</strong>
+            <span>@pradaautoelevadores</span>
+          </div>
+          <i class="fas fa-arrow-right contacto-arrow"></i>
+        </a>
+        <a href="mailto:Pradaautoelevadores@gmail.com?subject=Consulta%20desde%20la%20web" class="contacto-card">
+          <div class="contacto-icon" style="background:#EA4335;">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div>
+            <strong>Email</strong>
+            <span>Pradaautoelevadores@gmail.com</span>
+          </div>
+          <i class="fas fa-arrow-right contacto-arrow"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="logo.png" alt="Prada Autoelevadores" class="footer-logo">
+        <p>Especialistas en equipamiento industrial. Venta, alquiler y mantenimiento en toda Argentina.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="productos.html">Catálogo</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="https://wa.me/5491125133329" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+          <li><a href="https://instagram.com/pradaautoelevadores" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+          <li><a href="mailto:Pradaautoelevadores@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Prada Autoelevadores. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flotante -->
+  <a href="https://wa.me/5491125133329" class="whatsapp-float" target="_blank" title="Consultá por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="wa-pulse"></span>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>
